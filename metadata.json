@@ -1,0 +1,6 @@
+{
+  "name": "Lesson Plan GENerator",
+  "description": "Generate smart, curriculum-aligned lesson plans for primary English language teachers in seconds.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
