@@ -58,3 +58,7 @@ jobs:
           path: android/app/build/outputs/apk/debug/app-debug.apk
           if-no-files-found: error
           retention-days: 14
+      - name: Ensure Capacitor uses JSON configuration
+        run: |
+          test -f capacitor.config.json
+          rm -f capacitor.config.ts
